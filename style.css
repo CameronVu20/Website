@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Literata", serif;
+}
+ ul{
+    list-style-type: none;
+    display: flex;
+    background-color: #614769;
+}
+li{
+    padding: 5px;
+}
+li:hover {
+    background-color: #f4d7e8;
+}
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    font-size: 50x;
+
+}
+
+.name{
+    padding-top:5%;
+    padding-left:5%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#cam{
+    height: 30%;
+    width: 30%;
+    clip-path:circle(50%);
+}
+.name h1, .name p{
+    max-width: 600px;
+}
+
+hr{
+    margin-top: 5%;
+}
+
+.link{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+#l, #g, #e {
+    display: block;
+    color:#f4d7e8;
+    text-align: center;
+    padding: 15px 17px;
+    font-size: 50x;
+}
+#sl, #gl{
+    display: inline-block;
+    color:#f4d7e8;
+    padding: 15px 17px;
+    font-size: 50x;
+    background-color: #614769;
+}
+#sl:hover, #gl:hover{
+    background-color: #f4d7e8;
+}
+
+/* contact and resume page */
+#crt{
+    font-size: 50x;
+    text-align: center;
+
+}
+#crw{
+    font-size: 30x;
+    text-align: center;
+}
+.resize{
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: auto;
+    border: 2px #614769;
+    margin-left:auto;
+    margin-right:auto;
+}
+.resize iframe{
+    width: 100%;
+    height: 100%;
+}
+/* portfolio page*/
+.port{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+#yt{
+    height: 400px;
+    width: 600px;
+}
